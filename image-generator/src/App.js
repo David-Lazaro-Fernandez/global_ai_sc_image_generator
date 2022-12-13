@@ -16,7 +16,7 @@ function App() {
 
   const send_prompt = async () => {
     const result = await axios.get(
-      `https://fd7b-34-142-202-204.ngrok.io?prompt=${input}`
+      `https://e30b-34-124-237-73.ngrok.io/?prompt=${input}`
     );
     setImage(result.data);
     console.log(image);
