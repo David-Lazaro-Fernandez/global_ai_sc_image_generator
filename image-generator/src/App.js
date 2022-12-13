@@ -1,5 +1,5 @@
 import "./App.css";
-import Image_holder from "./components/image_holder";
+import ImageHolder from "./components/image_holder";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Skeleton from "@mui/material/Skeleton";
@@ -12,6 +12,7 @@ function App() {
 
   useEffect(() => {
     setSkeletonAnimation(!skeletonAnimation);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [image]);
 
   const send_prompt = async () => {
@@ -47,12 +48,12 @@ function App() {
       </div>
       {loading ? (
         skeletonAnimation ? (
-          <img src={`data:image/png;base64,${image}`} />
+          <img alt="prompt result" src={`data:image/png;base64,${image}`} />
         ) : (
           <Skeleton variant="rectangular" width={700} height={700} />
         )
       ) : (
-        <Image_holder image={image} />
+        <ImageHolder image={image} />
       )}
       <p>&lt;/&gt; with 💖 by David Lazaro </p>
     </div>
