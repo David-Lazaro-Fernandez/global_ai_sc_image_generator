@@ -1,6 +1,5 @@
 import './Image_holder.css';
 const ImageHolder = (props) =>{
- const {image} = props
  return(
     <>
         <div class="holder">
