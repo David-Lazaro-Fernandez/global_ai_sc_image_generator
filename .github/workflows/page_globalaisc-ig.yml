@@ -26,7 +26,6 @@ jobs:
           cd image-generator
           npm install
           npm run build 
-          npm run test
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
