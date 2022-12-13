@@ -1,1 +1,0 @@
-AUTH_TOKEN = "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"
