@@ -1,5 +1,5 @@
 import './Image_holder.css';
-const Image_holder = (props) =>{
+const ImageHolder = (props) =>{
  const {image} = props
  return(
     <>
@@ -11,4 +11,4 @@ const Image_holder = (props) =>{
  )
 }
 
-export default Image_holder;
+export default ImageHolder;
