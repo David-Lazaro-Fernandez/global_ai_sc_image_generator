@@ -7,4 +7,4 @@
 <img src="https://i.ytimg.com/vi/gkaCN1_WJtY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB0ZumgddhDEW1Z-k7dzgRt98XmFg" />
 </a>
 
-<p>Check out <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p>
+<p>Check out <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a>.</p>
